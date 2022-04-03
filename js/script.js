@@ -3,6 +3,8 @@ function handlePassword(input_field) {
     console.log("connected")
     fetch("secret.txt")
         .then(response => response.text())
-        .then(text => console.log(text));
+        .catch()
+        .then(text => console.log(text))
+        .catch();
     
 }
