@@ -1,0 +1,63 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #333333;
+    height: 100%;
+}
+.main-heading {
+    position: absolute;
+    width: 100%;
+    color: red;
+    text-align: center;
+
+}
+
+.content-container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lock-image {
+
+    background-color: #333333;
+    height: 300px;
+    width: 300px;
+}
+
+.lock-image#lock1 {
+    display: block;
+    /* display: none; */
+}
+
+.password-form {
+    margin-top: 25px;
+}
+
+.password-input {
+    font-size: 18px;
+}
+
+.flag {
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    z-index: -1;
+}
+
+.flag#flag1 {
+    display: none;
+    /* display: block; */
+}

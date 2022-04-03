@@ -4,9 +4,32 @@
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="css/style.css"/>
 
-        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <script src="js/script.js"></script>
     </head>
-  <body>
-      Placeholder website (jaren.dev).
-  </body>
+    <body>
+        <h1 class="main-heading">Three flags lie safely behind these password-protected locks.<br>Looks like you're out of luck!</h1>
+        <div class="content-container">
+            <div class="lock-container">
+                <img class="flag" id="flag1" src="media/flag.png" />
+                <img class="lock-image" src="media/lock.png" />
+                <form class="password-form">
+                    <input class="password-input" id="form1-input-field" type="text" placeholder="Enter password">
+                    <input type="submit" value="Submit" onclick="handlePassword('form1-input-field')">
+                </form>
+            </div>
+            <div class="lock-container">
+                <img class="lock-image" src="media/lock.png" />
+                <form class="password-form">
+                    <input class="password-input" type="text" placeholder="Enter password">
+                </form>
+            </div>
+            <div class="lock-container">
+                <img class="lock-image" src="media/lock.png" />
+                <form class="password-form">
+                    <input class="password-input" type="text" placeholder="Enter password">
+                </form>
+            </div>
+        </div>
+    </body>
 </html>
