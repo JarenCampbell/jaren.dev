@@ -25,7 +25,7 @@ function comparePasswords(input, retrieved) {
 }
 
 function handleButton3() {
-    password_value = document.getElementById("lock2-input-field").value;
+    password_value = document.getElementById("lock3-input-field").value;
     if (password_value == getLock3Password()) {
         console.log("Correct password for lock 3");
     }
