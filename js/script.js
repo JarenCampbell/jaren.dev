@@ -3,8 +3,8 @@ function handlePassword(input_field) {
     let retrieved_password = "";
     fetch("secret.txt")
         .then(response => response.text())
-        .then(text => retrieved_password = text);
-    console.log("Retrieved:" + retrieved_password);
+        .then(text => {retrieved_password = text});
+    console.log("Retrieved:", retrieved_password);
     console.log("Inputted:", password_value);
     if (password_value == retrieved_password) {
         console.log("Correct password");
