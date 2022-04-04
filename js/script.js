@@ -1,11 +1,27 @@
 // NOTE:
-// I have obfuscated all of my JavaScript code except for function names
+// I have obfuscated all of my JavaScript code EXCEPT function names
 // You can solve all three puzzles without directly modifying any JavaScript
 
 function handleButton1() {
     password_value = document.getElementById("lock1-input-field").value;
     if (password_value == "iamthesenate") {
-        console.log("Correct password for lock 1");
+        let lock_image = document.getElementById("lock-image-1");
+        lock_image.setAttribute("style", "display: none");
+        
+        let flag = document.createElement("p");
+        const text_node = document.createTextNode("🚩");
+        flag.appendChild(text_node);
+        flag.style.fontSize = "200px";
+        flag.style.margin = "0";
+
+        let victory_text_element = document.createElement("span");
+        let victory_text = document.createTextNode("WOW! You found flag #1!");
+        victory_text_element.appendChild(victory_text);
+        victory_text_element.setAttribute("style", "font-size: 20px; color: red;")
+
+        let lock_container = document.getElementById("lock-container-1");
+        lock_container.prepend(victory_text_element);
+        lock_container.prepend(flag);
     }
     else {
         console.log("Incorrect password for lock 1");
@@ -21,7 +37,23 @@ function handleButton2() {
 
 function comparePasswords(input, retrieved) {
     if (input == retrieved) {
-        console.log("Correct password for lock 2");
+        let lock_image = document.getElementById("lock-image-2");
+        lock_image.setAttribute("style", "display: none");
+        
+        let flag = document.createElement("p");
+        const text_node = document.createTextNode("🚩");
+        flag.appendChild(text_node);
+        flag.style.fontSize = "200px";
+        flag.style.margin = "0";
+
+        let victory_text_element = document.createElement("span");
+        let victory_text = document.createTextNode("HOORAY! You found flag #2!");
+        victory_text_element.appendChild(victory_text);
+        victory_text_element.setAttribute("style", "font-size: 20px; color: red;")
+
+        let lock_container = document.getElementById("lock-container-2");
+        lock_container.prepend(victory_text_element);
+        lock_container.prepend(flag);
     }
     else {
         console.log("Incorrect password for lock 2");
@@ -31,7 +63,23 @@ function comparePasswords(input, retrieved) {
 function handleButton3() {
     password_value = document.getElementById("lock3-input-field").value;
     if (password_value == getLock3Password()) {
-        console.log("Correct password for lock 3");
+        let lock_image = document.getElementById("lock-image-3");
+        lock_image.setAttribute("style", "display: none");
+        
+        let flag = document.createElement("p");
+        const text_node = document.createTextNode("🚩");
+        flag.appendChild(text_node);
+        flag.style.fontSize = "200px";
+        flag.style.margin = "0";
+
+        let victory_text_element = document.createElement("span");
+        let victory_text = document.createTextNode("NICE JOB! You found flag #3!");
+        victory_text_element.appendChild(victory_text);
+        victory_text_element.setAttribute("style", "font-size: 20px; color: red;")
+
+        let lock_container = document.getElementById("lock-container-3");
+        lock_container.prepend(victory_text_element);
+        lock_container.prepend(flag);
     }
     else {
         console.log("Incorrect password for lock 3");
