@@ -9,20 +9,27 @@
     <body>
         <h1 class="main-heading">Three flags lie safely behind these password-protected locks.<br>Looks like you're out of luck!</h1>
         <div class="content-container">
+            <!-- LOCK 1 -->
+            <!-- Note to self: remove this comment so people can't just inspect the code
+            to know the password to lock 1 is "iamthesenate" -->
             <div class="lock-container">
-                <img class="flag" id="flag1" src="media/flag.png" />
                 <img class="lock-image" src="media/lock.png" />
                 <div class="password-form">
-                    <input class="password-input" id="form1-input-field" type="text" placeholder="Enter password">
-                    <button onclick="handlePassword('form1-input-field')">Submit</button>
+                    <input class="password-input" id="lock1-input-field" type="text" placeholder="Enter password">
+                    <button onclick="handleButton1('lock1-input-field')">Submit</button>
                 </div>
             </div>
+
+            <!-- LOCK 2 -->
             <div class="lock-container">
                 <img class="lock-image" src="media/lock.png" />
-                <form class="password-form">
-                    <input class="password-input" type="text" placeholder="Enter password">
-                </form>
+                <div class="password-form">
+                    <input class="password-input" id="lock2-input-field" type="text" placeholder="Enter password">
+                    <button onclick="handleButton2('lock2-input-field')">Submit</button>
+                </div>
             </div>
+
+            <!-- LOCK 3 -->
             <div class="lock-container">
                 <img class="lock-image" src="media/lock.png" />
                 <form class="password-form">
