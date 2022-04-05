@@ -5,6 +5,7 @@ directly modifying these CSS properties
 
 html {
     height: 100%;
+    font-family: Verdana, sans-serif;
 }
 
 body {
