@@ -24,7 +24,9 @@ function handleButton1() {
         lock_container.prepend(flag);
     }
     else {
-        console.log("Incorrect password for lock 1");
+        let input_field = document.getElementById("lock1-input-field");
+        input_field.setAttribute("style", "background-color: #FF5555");
+        setTimeout(() => {input_field.setAttribute("style", "background-color: white")}, 500);
     }
 }
 
@@ -56,7 +58,9 @@ function comparePasswords(input, retrieved) {
         lock_container.prepend(flag);
     }
     else {
-        console.log("Incorrect password for lock 2");
+        let input_field = document.getElementById("lock2-input-field");
+        input_field.setAttribute("style", "background-color: #FF5555");
+        setTimeout(() => {input_field.setAttribute("style", "background-color: white")}, 500);
     }
 }
 
@@ -82,7 +86,9 @@ function handleButton3() {
         lock_container.prepend(flag);
     }
     else {
-        console.log("Incorrect password for lock 3");
+        let input_field = document.getElementById("lock3-input-field");
+        input_field.setAttribute("style", "background-color: #FF5555");
+        setTimeout(() => {input_field.setAttribute("style", "background-color: white")}, 500);
     }
 }
 

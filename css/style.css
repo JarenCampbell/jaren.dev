@@ -12,6 +12,7 @@ body {
     background-color: #333333;
     height: 100%;
 }
+
 .main-heading {
     /* position: absolute; */
     width: 100%;
@@ -47,11 +48,6 @@ body {
     width: 300px;
 }
 
-.lock-image#lock1 {
-    display: block;
-    /* display: none; */
-}
-
 .password-form {
     margin-top: 25px;
     margin-bottom: 10px;
@@ -59,16 +55,4 @@ body {
 
 .password-input {
     font-size: 18px;
-}
-
-.flag {
-    height: 200px;
-    width: 200px;
-    position: fixed;
-    z-index: -1;
-}
-
-.flag#flag1 {
-    display: none;
-    /* display: block; */
 }
