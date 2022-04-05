@@ -94,5 +94,5 @@ function handleButton3() {
 
 // Note to self: change this function's name to something less... suspicious
 function getLock3Password() {
-    return("ihavethehighground");
+    return("blackbeanhummus");
 }

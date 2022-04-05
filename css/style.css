@@ -10,7 +10,7 @@ html {
 
 body {
     margin: 0;
-    background-color: #333333;
+    background-color: #222222;
     height: 100%;
 }
 
@@ -45,8 +45,6 @@ body {
 }
 
 .lock-image {
-
-    background-color: #333333;
     height: 75%;
     width: 75%;
 }
