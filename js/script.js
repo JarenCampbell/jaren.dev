@@ -2,6 +2,11 @@
 // I have obfuscated all of my JavaScript code EXCEPT function names
 // You can solve all three puzzles without directly modifying any JavaScript
 
+window.onload = function() {
+    fetch("lock2_password.txt")
+        .then(response => response.text());
+};
+
 function handleButton1() {
     password_value = document.getElementById("lock1-input-field").value;
     if (password_value == "keylimepie") {
