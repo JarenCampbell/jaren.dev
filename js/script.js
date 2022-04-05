@@ -4,7 +4,7 @@
 
 function handleButton1() {
     password_value = document.getElementById("lock1-input-field").value;
-    if (password_value == "iamthesenate") {
+    if (password_value == "keylimepie") {
         let lock_image = document.getElementById("lock-image-1");
         lock_image.setAttribute("style", "display: none");
         
