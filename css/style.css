@@ -14,6 +14,12 @@ body {
     height: 100%;
 }
 
+.home-screen-button {
+    height: 100px;
+    width: 300px;
+    font-size: 24px;
+}
+
 .main-heading {
     /* position: absolute; */
     width: 100%;
