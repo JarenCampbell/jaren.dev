@@ -1,0 +1,36 @@
+<!-- 
+    NOTE: 
+    All three flags can be found without directly modifying any HTML, CSS, or JavaScript code!
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+
+        <link rel="stylesheet" href="css/style.css"/>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <h1 class="main-heading">
+            There is a flag behind this password-protected lock.
+        </h1>
+        <h2 class="sub-heading">
+            Inspecting the code <i>might</i> help you find it! ;)
+        </h2>
+        <div class="content-container">
+
+            <!-- LOCK 1 -->
+            <!-- Note to self: remove this comment so people can't just inspect the code
+            to know the password to lock 1 is "keylimepie" -->
+            <div class="lock-container" id="lock-container-1">
+                <img class="lock-image" id="lock-image-1" src="media/lock.png" />
+                <div class="password-form">
+                    <input class="password-input" id="lock1-input-field" type="text" placeholder="Enter password">
+                    <button onclick="handleButton1()">Submit</button>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>

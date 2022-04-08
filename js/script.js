@@ -20,7 +20,7 @@ function handleButton1() {
         flag.style.margin = "0";
 
         let victory_text_element = document.createElement("span");
-        let victory_text = document.createTextNode("WOW! You found flag #1!");
+        let victory_text = document.createTextNode("itstemctf{easy_as_pie}");
         victory_text_element.appendChild(victory_text);
         victory_text_element.setAttribute("style", "font-size: 20px; color: red;")
 
@@ -54,7 +54,7 @@ function comparePasswords(input, retrieved) {
         flag.style.margin = "0";
 
         let victory_text_element = document.createElement("span");
-        let victory_text = document.createTextNode("HOORAY! You found flag #2!");
+        let victory_text = document.createTextNode("itstemctf{sour_cream_and_chives}");
         victory_text_element.appendChild(victory_text);
         victory_text_element.setAttribute("style", "font-size: 20px; color: red;")
 
@@ -82,7 +82,7 @@ function handleButton3() {
         flag.style.margin = "0";
 
         let victory_text_element = document.createElement("span");
-        let victory_text = document.createTextNode("NICE JOB! You found flag #3!");
+        let victory_text = document.createTextNode("itstemctf{refried_beans_but_better}");
         victory_text_element.appendChild(victory_text);
         victory_text_element.setAttribute("style", "font-size: 20px; color: red;")
 
