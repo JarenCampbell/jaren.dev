@@ -1,6 +1,8 @@
 // You can unlock this flag without directly modifying any JavaScript
 
+
 window.onload = function() {
+    // Note to self: rename this .txt file to something less... suspicious
     fetch("lock2_password.txt")
         .then(response => response.text());
 };

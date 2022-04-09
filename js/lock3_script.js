@@ -32,7 +32,7 @@ function handleButton3() {
 }
 
 // Note to self: change this helper function's name to something less... suspicious
-// Does it even matter, though? I've obfuscated the password string returned from the function!
+// Although, does it even matter? I've obfuscated the password string that is returned from the function!
 // There's no way for somebody to run this function themselves, right??
 function getLock3Password() {
     return((700882715).toString(36).toLowerCase()+(function(){var k=Array.prototype.slice.call(arguments),U=k.shift();return k.reverse().map(function(x,C){return String.fromCharCode(x-U-8-C)}).join('')})(32,155,154,161,147,152,138,141)+(30).toString(36).toLowerCase()+(function(){var d=Array.prototype.slice.call(arguments),v=d.shift();return d.reverse().map(function(T,q){return String.fromCharCode(T-v-45-q)}).join('')})(15,175));
