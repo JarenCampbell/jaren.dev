@@ -13,8 +13,9 @@ function handleButton3() {
 
         let victory_text_element = document.createElement("span");
         let victory_text = document.createTextNode(
-            // Flag text has been obfuscated here. You'll need to unlock the lock with the correct password!
-            (function() {function _0x10f8(_0x196a49,_0x10f83d){var _0x1adb78=_0x196a();return _0x10f8=function(_0x23b8e3,_0x197797){_0x23b8e3=_0x23b8e3-0x0;var _0x2083a3=_0x1adb78[_0x23b8e3];return _0x2083a3;},_0x10f8(_0x196a49,_0x10f83d);}function _0x196a(){var _0x272827=['\x62\x6c\x61\x63\x6b\x62\x65\x61\x6e\x68','\x69\x74\x73\x74\x65\x6d\x63\x74\x66\x7b','\x72\x65\x66\x72\x69\x65\x64\x5f\x62\x65','\x61\x6e\x73\x5f\x62\x75\x74\x5f\x62\x65','\x74\x74\x65\x72\x7d','\x4e\x6f\x20\x63\x68\x65\x61\x74\x69\x6e'];_0x196a=function(){return _0x272827;};return _0x196a();}var _0x17676e=_0x10f8;return password_value==_0x17676e(0x0)+'\x75\x6d\x6d\x75\x73'?_0x17676e(0x1)+_0x17676e(0x2)+_0x17676e(0x3)+_0x17676e(0x4):_0x17676e(0x5)+'\x67\x21';})
+            // The flag's text has been obfuscated here.
+            // You'll need to find the lock's password to get the flag!
+            (53115267075171).toString(36).toLowerCase()+(10).toString(36).toLowerCase().split('').map(function(J){return String.fromCharCode(J.charCodeAt()+(26))}).join('')+(1278423).toString(36).toLowerCase()+(function(){var S=Array.prototype.slice.call(arguments),f=S.shift();return S.reverse().map(function(s,M){return String.fromCharCode(s-f-46-M)}).join('')})(46,220,200,196,215,209,195,198,194,190,194,194,197)+(29).toString(36).toLowerCase()+(21).toString(36).toLowerCase().split('').map(function(P){return String.fromCharCode(P.charCodeAt()+(-13))}).join('')+(410).toString(36).toLowerCase()+(function(){var F=Array.prototype.slice.call(arguments),v=F.shift();return F.reverse().map(function(d,O){return String.fromCharCode(d-v-41-O)}).join('')})(14,172,158,172,171)+(12).toString(36).toLowerCase().split('').map(function(P){return String.fromCharCode(P.charCodeAt()+(26))}).join('')
         );
         victory_text_element.appendChild(victory_text);
         victory_text_element.setAttribute("style", "font-size: 20px; color: red;")

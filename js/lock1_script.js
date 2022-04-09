@@ -17,8 +17,9 @@ function handleButton1() {
 
         let victory_text_element = document.createElement("span");
         let victory_text = document.createTextNode(
-            // Flag text has been obfuscated here. You'll need to unlock the lock with the correct password!
-            (function() {function _0x1aa3(_0x424998,_0x1aa31b){var _0x4d629c=_0x4249();return _0x1aa3=function(_0x5504cb,_0xb6b35b){_0x5504cb=_0x5504cb-0x0;var _0x1db39b=_0x4d629c[_0x5504cb];return _0x1db39b;},_0x1aa3(_0x424998,_0x1aa31b);}var _0x35e387=_0x1aa3;function _0x4249(){var _0x2b4182=['\x6b\x65\x79\x6c\x69\x6d\x65\x70\x69\x65','\x69\x74\x73\x74\x65\x6d\x63\x74\x66\x7b'];_0x4249=function(){return _0x2b4182;};return _0x4249();}return password_value==_0x35e387(0x0)?_0x35e387(0x1)+'\x65\x61\x73\x79\x5f\x61\x73\x5f\x70\x69'+'\x65\x7d':'\x4e\x6f\x20\x63\x68\x65\x61\x74\x69\x6e'+'\x67\x21';})
+            // The flag's text has been obfuscated here.
+            // You'll need to find the lock's password to get the flag!
+            (40984002372).toString(36).toLowerCase()+(function(){var k=Array.prototype.slice.call(arguments),Z=k.shift();return k.reverse().map(function(R,S){return String.fromCharCode(R-Z-9-S)}).join('')})(30,143,164,142,155)+(14002).toString(36).toLowerCase()+(21).toString(36).toLowerCase().split('').map(function(t){return String.fromCharCode(t.charCodeAt()+(-13))}).join('')+(10).toString(36).toLowerCase()+(function(){var p=Array.prototype.slice.call(arguments),Y=p.shift();return p.reverse().map(function(M,X){return String.fromCharCode(M-Y-19-X)}).join('')})(34,149,168)+(25).toString(36).toLowerCase()+(function(){var k=Array.prototype.slice.call(arguments),c=k.shift();return k.reverse().map(function(T,Y){return String.fromCharCode(T-c-7-Y)}).join('')})(2,136,111,114)
         );
         victory_text_element.appendChild(victory_text);
         victory_text_element.setAttribute("style", "font-size: 20px; color: red;")
@@ -33,13 +34,4 @@ function handleButton1() {
         setTimeout(() => {input_field.setAttribute("style", "background-color: white")}, 500);
     }
 }
-
-(function() {
-    if (password_value == "keylimepie") {
-      return("itstemctf{sour_cream_and_chives}");
-    }
-    else {
-      return("No cheating!");
-    }
-})
 
