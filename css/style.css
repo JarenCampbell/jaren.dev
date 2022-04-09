@@ -23,14 +23,28 @@ body {
 .main-heading {
     /* position: absolute; */
     width: 100%;
-    color: red;
     text-align: center;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.main-heading#lock1-main-heading {
+    color: #55FF55;
+}
+
+.main-heading#lock2-main-heading {
+    color: #0398fc;
+}
+
+.main-heading#lock3-main-heading {
+    color: #FF5555;
 }
 
 .sub-heading {
     width: 100%;
-    color: red;
+    color: #CCCCCC;
     text-align: center;
+    margin-top: 0;
 }
 
 .content-container {
